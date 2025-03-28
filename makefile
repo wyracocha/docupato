@@ -1,0 +1,2 @@
+start:
+	./scripts/parse.sh

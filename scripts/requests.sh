@@ -1,8 +1,8 @@
 #!/bin/bash
 INPUT=$(tr -d '\n' <  $PWD/flows/case02.md)
-TXT="crea un diagrama de secuencia usando lenguaje mermaid. Recuerda que como salida espero solo recibir el codigo generado, no necesito ninguna explicacion sobre la respuesta. Para ello usa el siguiente texto: ${INPUT}"
+TXT="crea un diagrama de secuencia usando lenguaje mermaid.Para ello usa el siguiente texto: ${INPUT}. La respuesta debe estar en formato mermaid pero sin comentarios adicionales"
 
-echo $TXT
+#echo $TXT
 
 curl https://api.openai.com/v1/responses \
   -H "Content-Type: application/json" \
