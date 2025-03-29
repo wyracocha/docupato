@@ -9,3 +9,7 @@ Edit case02.md file in flow scripts. Then run make start to generate an out.mmd 
 ```
 make start
 ```
+
+## Roadmap
+- Read multiple flows in flows directory
+- Build container
