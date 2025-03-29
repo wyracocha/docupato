@@ -1,5 +1,5 @@
 #!/bin/bash
-INPUT=$(tr -d '\n' <  $PWD/flows/case02.md)
+INPUT=$(tr -d '\n' <  $PWD/flows/case.md)
 TXT="crea un diagrama de secuencia usando lenguaje mermaid.Para ello usa el siguiente texto: ${INPUT}. La respuesta debe estar en formato mermaid pero sin comentarios adicionales"
 
 #echo $TXT

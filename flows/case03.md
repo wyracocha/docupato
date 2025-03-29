@@ -1,1 +1,0 @@
-crea un diagrama de secuencia usando lenguaje mermaid. Recuerda que como salida espero solo recibir el codigo generado, no necesito ninguna explicacion sobre la respuesta. Para ello usa el siguiente texto: pedro quiere enviarle dinero a luis, para ello primero valida si luis esta en la ciudad. Si luis esta en la ciudad, podra enviarle dinero, caso contrario no podra hacerlo.
